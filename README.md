@@ -29,31 +29,31 @@ The script adds a **Target List Manager** directly to Torn's Targets List page, 
 
 The script adds a management panel directly above the Targets List.
 
-![Target List Manager](Target%20List%20Manager%20-%20Start.png)
+![Target List Manager](https://raw.githubusercontent.com/peetam22/Torn-Delete-All-Targets/main/Target%20List%20Manager%20-%20Start.png)
 
 ### Preparing to Delete
 
 After scanning the complete list, the script displays the number of targets found and asks for confirmation.
 
-![Prepare to Delete](Target%20List%20Manager%20-%20Prepare%20to%20Delete%20Popup.png)
+![Prepare to Delete](https://raw.githubusercontent.com/peetam22/Torn-Delete-All-Targets/main/Target%20List%20Manager%20-%20Prepare%20to%20Delete%20Popup.png)
 
 ### Final Confirmation
 
 A second confirmation is required before the deletion process begins.
 
-![Confirm Target Delete](Target%20List%20Manager%20-%20Confirm%20Target%20Delete.png)
+![Confirm Target Delete](https://raw.githubusercontent.com/peetam22/Torn-Delete-All-Targets/main/Target%20List%20Manager%20-%20Confirm%20Target%20Delete.png)
 
 ### Deletion in Progress
 
 The manager tracks the deletion progress while each target is removed.
 
-![Deletion in Progress](Target%20List%20Manager%20-%20While%20Delete.png)
+![Deletion in Progress](https://raw.githubusercontent.com/peetam22/Torn-Delete-All-Targets/main/Target%20List%20Manager%20-%20While%20Delete.png)
 
 ### Completed
 
 Once all targets have been successfully removed, the manager displays the completed status.
 
-![Deletion Complete](Target%20List%20Manager%20-%20Post%20Script.png)
+![Deletion Complete](https://raw.githubusercontent.com/peetam22/Torn-Delete-All-Targets/main/Target%20List%20Manager%20-%20Post%20Script.png)
 
 ---
 
@@ -98,7 +98,7 @@ The script is designed to avoid accidental deletion:
 ## Requirements
 
 - [Torn City](https://www.torn.com/)
-- A userscript manager such as Tampermonkey
+- A userscript manager such as [Tampermonkey](https://www.tampermonkey.net/)
 - A modern web browser
 
 ---
@@ -108,14 +108,17 @@ The script is designed to avoid accidental deletion:
 ### Tampermonkey
 
 1. Install [Tampermonkey](https://www.tampermonkey.net/).
-2. Open the `Torn-Delete-All-Targets.user.js` file from this repository.
-3. Copy the contents of the script.
-4. Create a new userscript in Tampermonkey.
-5. Paste the script into the editor.
-6. Save the userscript.
-7. Open your Torn Targets List.
+2. Install **Torn - Delete All Targets** from the **Install** button on the Greasy Fork page.
+3. Confirm the installation in Tampermonkey.
+4. Open your Torn Targets List.
 
 The **Target List Manager** should appear above your target list.
+
+### Manual Installation
+
+If you prefer to install the script manually, the source code is available in this repository:
+
+[`Torn-Delete-All-Targets.user.js`](https://github.com/peetam22/Torn-Delete-All-Targets/blob/main/Torn-Delete-All-Targets.user.js)
 
 ---
 
