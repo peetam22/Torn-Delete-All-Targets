@@ -3,6 +3,8 @@
 // @namespace    https://www.torn.com/
 // @version      2.1.1
 // @description  Safely scan and delete all players from the Torn Targets List.
+// @author       peeta22 [2268033]
+// @license      MIT
 // @match        https://www.torn.com/page.php*
 // @grant        none
 // ==/UserScript==
